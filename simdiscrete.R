@@ -43,7 +43,7 @@ cor <- cov2cor(cov)
 
 ### generate data########################
 mu <- rep(0,p)
-for (t in 1:m){
+
 z <- rmvnorm(n,mu,cor)
 ###### L=2 ##########
 ######All discrete###
